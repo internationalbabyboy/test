@@ -5,7 +5,7 @@
 # test = os.getenv('MY_SECRET')
 # print(test)
 
-from openai import OpenAI
+# from openai import OpenAI
 import streamlit as st
 
 st.title('title')
