@@ -1,9 +1,9 @@
-import os
-from dotenv import load_dotenv
-load_dotenv()
-
-test = os.getenv('MY_SECRET')
-print(test)
+# import os
+# from dotenv import load_dotenv
+# load_dotenv()
+#
+# test = os.getenv('MY_SECRET')
+# print(test)
 
 from openai import OpenAI
 import streamlit as st
